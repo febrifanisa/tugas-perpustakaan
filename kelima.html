@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Data Buku</title>
+    <script src="kedelapan.js"></script>
+</head>
+
+<body background="D:\Pemograman Web Dasar\Tugas Praktikum 1\hero-image.fill.size_1248x702.v1661351758.jpg">
+
+    <center>
+        <H1>SISTEM INFORMASI PERPUSTAKAAN</H1><br>
+    </center>
+    <form method="post" action="" name="frmdaftar" onsubmit="return cekform()">
+        <font face="" size="3">
+            <table border="0" cellpadding="5" cellspacing="3" div style="height: 20%; width: 43%; border-radius: 2px;"
+                align="center">
+                <tr>
+                    <td>Judul Buku</td>
+                    <td><input type="text" name="judul" id="judul" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Pengarang</td>
+                    <td><input type="text" name="pengarang" id="pengarang" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Penerbit</td>
+                    <td><input type="text" name="penerbit" id="penerbit" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Tahun Terbit</td>
+                    <td><select>
+                            <option>--Pilih Tahun Terbit--</option>
+                            <option>1990-1995</option>
+                            <option>1996-2000</option>
+                            <option>2001-2005</option>
+                            <option>2006-2010</option>
+                            <option>2011-2015</option>
+                            <option>2016-2020</option>
+                            <option>2021-2023</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>ISBN</td>
+                    <td><input type="text" name="isbn" id="isbn" size="50"><b></td>
+                </tr>
+                <tr>
+                    <td>Jumlah Buku</td>
+                    <td><input type="text" name="jmlbuku" id="jmlbuku" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Keterangan Buku</td>
+                    <td><input type="text" name="keterangan" id="keterangan" size="50"></td>
+                </tr>
+                <tr>
+                    <td>Lokasi</td>
+                    <td><select>
+                            <option>--Pilih Rak--</option>
+                            <option>Rak 1</option>
+                            <option>Rak 2</option>
+                            <option>Rak 3</option>
+                            <option>Rak 4</option>
+                            <option>Rak 5</option>
+                            <option>Rak 6</option>
+                            <option>Rak 7</option>
+                            <option>Rak 8</option>
+                            <option>Rak 9</option>
+                            <option>Rak 10</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Input</td>
+                    <td><input type="date" name="tanggal" id="tanggal" size="50"></td>
+                </tr>
+                <tr>
+                    <td><input type='submit' value='kirim'>
+                        <input type='reset' value='hapus'><br>
+                        <a href="ketiga.html" style="color:black">Kembali ke menu</a>
+                    </td>
+                </tr>
+            </table>
+        </font>
+    </form>
+
+</body>
+
+</html>

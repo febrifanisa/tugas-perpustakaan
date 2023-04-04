@@ -1,0 +1,1 @@
+alert("Selamat Datang Di Perpustakaan Politeknik Negeri Lhokseumawe")
